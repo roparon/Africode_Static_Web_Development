@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Contact us</legend>
+            <!-- Dropdown -->
+            <label for="title">Title</label>
+            <select name="name" id="title">
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Ms">Ms.</option>
+                <option value="Dr">Dr.</option>
+                <option value="Prof">Prof.</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Aron Rop" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="aaronrop40@gmail.com" required>
+            <br><br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="your subject" required>
+            <br><br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="10" rows="10" placeholder="Your message..."></textarea>
+            <br><br>
+            <input type="submit" id="register" name="register" style="background-color: rgb(122, 237, 109);">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

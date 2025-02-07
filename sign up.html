@@ -18,10 +18,10 @@
         <input type="email" id="lname" name="email" required>
         <br><br>
         <label for="dbirth">D . O . B:</label>
-        <input type="date" id="dbirth" name="dbirth" required>
+        <input type="date" id="dbirth" name="dbirth" max="2012-02-07" required>
         <br><br>
         <label for="pnumber">Phone Number:</label>
-        <input type="tel" id="pnumber" name="pnumber" required>
+        <input type="tel" id="pnumber" name="pnumber" required title="Phone number must start with a '+' sign" required>
         <br><br>
         <label>Gender:</label>
         <input type="radio" id="male" name="Gender" value="male">
@@ -34,11 +34,11 @@
         <label for="subscribe">Subscribe:</label>
         <input type="checkbox" id="subscribe" name="subscribe">
         <br><br>
-        <label for="pphoto">Upload Image:</label>
-        <input type="file" id="pphoto" name="pphoto">
+        <label for="pphoto">Upload Image</label>
+        <input type="file" id="pphoto" name="pphoto" max size=" 2mb">
         <br><br>
         <label for="pass">Password:</label>
-        <input type="password" id="pass" name="pass" required>
+        <input type="password" id="pass" name="pass" required minlength="8">
         <br><br>
         <label for="color">Choose a Color:</label>
         <input type="color" id="color" name="color" value="#ff0000">
